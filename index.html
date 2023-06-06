@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Arcade</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+    <body>
+        <header>
+        <img id="img-banner" src="banner.jpg" width="100%"/>
+        </header>
+        <nav>
+            <a class="menu" href="#pag-sobre">SOBRE NÓS</a></a>&nbsp;&nbsp;&nbsp;
+            <a class="menu" href="#servico">SERVIÇOS</a>&nbsp;&nbsp;&nbsp;
+            <a class="menu" href="#equipe">EQUIPE</a>&nbsp;&nbsp;&nbsp;
+            <a class="menu" href="#pag-duvidas">DÚVIDAS?</a>&nbsp;&nbsp;&nbsp;
+            <a class="menu" href="#pag-contato">CONTATO</a>&nbsp;&nbsp;&nbsp;
+        </nav>
+
+        <section id="pag-sobre">
+        <main>
+        <h1 >Sobre a Digital Arcade</h1>
+
+        <p>Bem-vindo(a) à nossa loja de jogos! Aqui, nós celebramos a diversão, a emoção e a imaginação que os jogos podem proporcionar. Somos apaixonados por trazer a você os melhores jogos do mercado, tanto para os aficionados por videogames. Oferecemos manutenção, alugel de jogos e muito mais!</p>
+        
+        <p>Na Digital Arcade, você será recebido por uma atmosfera vibrante e repleta de opções incríveis. Explore nossas prateleiras repletas de jogos para as principais plataformas, como PlayStation, Xbox e Nintendo. Dos clássicos atemporais às últimas novidades, temos um vasto catálogo que certamente irá satisfazer os gostos mais exigentes.</p>
+
+        <p>Além dos jogos, oferecemos uma ampla variedade de consoles de videogame de última geração e acessórios que irão aprimorar sua experiência de jogo. De controles especiais a fones de ouvido imersivos, nossa seleção cuidadosamente escolhida garantirá que você tenha o equipamento ideal para elevar suas habilidades a um novo patamar.</p>
+        </main>
+        </section>
+        
+        <section id="servico">
+            <h1 algin="center">Nossos serviços...</h1>
+        </section>
+        <section id="pag-servico">
+        <div class="container">
+        <div class="card">
+            <img class="img-card" src="alugel.jpg" alt="">
+            <div>
+                <h3>Alugue sua diversão!</h3>
+                <p>Com o serviço de aluguel de vídeo-games, você pode ter acesso aos melhores jogos sem gastar uma fortuna.</p>              
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="img-card" src="manutenção.jpg" alt="">
+            <div>
+                <h3>Manutenção em dia?</h3>
+                <p>Com o serviço de manutenção de vídeo-games, você pode garantir que seus dispositivos estejam sempre prontos para ação.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="img-card" src="compra e venda.jpg" alt="">
+            <div>
+                <h3>Compramos e vendemos jogos sem complicações!</h3>
+                <p>Com o serviço de compra e venda de vídeo-games, você pode encontrar os títulos mais desejados e também se desfazer daqueles que não joga mais.</p>
+                </div>
+            </div>
+        </div>
+        </section>
+
+
+
+        <section id="equipe">
+            <h1 algin="center">Conheça nossa equipe!</h1>
+        </section>
+        <section id="pag-servico">
+        <div class="container">
+        <div class="card">
+            <img class="img-card" src="mario.jpg" alt="">
+            <div>
+                <h3>Mario</h3>
+                <p>Nosso técnico de vídeo-games especializado em reparo!</p>              
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="img-card" src="luigi.jpg" alt="">
+            <div>
+                <h3>Luigi</h3>
+                <p>Vendedor preparado para te atender da melhor forma possível!</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="img-card" src="princesa peach.jpg" alt="">
+            <div>
+                <h3>Princesa Peach</h3>
+                <p>Nossa assistente administrativa, organizando nosso catálago de jogos e vídeo-games para te entregar a melhor experiência!</p>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <section id="pag-duvidas">
+        <nav>
+            <h1>Dúvidas?</h1>
+            <p>Não se preocupe! Estamos aqui para ajudar. Nossa equipe está pronta para responder a todas as suas perguntas e fornecer o suporte necessário. Entre em contato conosco e teremos o prazer de esclarecer qualquer incerteza que você possa ter. Sua satisfação é nossa prioridade.</p>
+        </nav>
+        </section>
+
+        <form>
+            <div>
+            <label for="nome">Nome:</label>
+            <input id="nome" type="text" name="nome_completo" placeholder="Nome completo"/><br/>
+            </div>
+
+            <div>
+            <label for="email">E-mail:</label>
+            <input id="email" type="email" name="email" placeholder="nomedeusuario@email.com"/><br/>
+            </div>
+
+            <div>
+            <label for="celular">Celular:</label>
+            <input id="celular" type="tel" name="celular" placeholder="(DDD)0.0000-0000"><br/>
+            </div>
+
+            <div>
+            <label for="nivel">Selecione sua dúvida:</label>
+            <select id="nivel" name="nivel">
+                <option>Selecione</option>
+                <option value="iniciante">Alugel</option>
+                <option value="basico">Manutenção</option>
+                <option valeu="intermediario">Compra e venda</option>
+            </select><br/>
+            </div>
+
+            <div>
+            <label for="msg">Fale um pouco mais sobre sua dúvida:</label><br/>
+        <textarea id="msg" cols="40" rows="4">
+        </textarea>
+            </div>
+
+            <div>
+            <p><input type="submit" name="bnt-enviar" value="ENVIAR"/>
+            <input type="reset" name="bnt-cancelar" value="CANCELAR"/></p><br/>
+            </div>
+        </form>
+
+        <section id="pag-contato">
+            <h2>Entre em contato!</h2>
+
+            <p>Nosso e-mail: arcadegame@domain.com.br</p>
+            <p>Nosso WhatsApp: (61)91234-5678</p>
+            <p>Funcionamos de Segunda-feira a Sexta-feira das 10:00 às 20:00</p>
+        </section>
+
+        <hr/>
+    
+        <p>Desenvolvido por... </p>
+
+        <a href="https://www.instagram.com/aurelliusmatheus/" target="_blank">Matheus Aurellius</a>
+        <p>CEUB: Matheus Aurellius Santos do Nascimento | RA:72050043 </p>
+        
+    </body>
+</html>

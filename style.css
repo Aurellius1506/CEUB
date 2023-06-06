@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300;500;700&display=swap');
+
+
+*{
+    margin: 0; padding: 0;
+    text-align: center;
+}
+body{
+    background-color: #ffffff;
+}
+
+header{
+    width: 100;
+    
+}
+
+.menu{
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+    padding: 4px 80px;
+    background-color: #FFF;
+}
+
+main{
+    background-color: #FFF;
+    padding: 4px 80px;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3em;
+}
+
+#pag-servico{
+    display: flex;
+    justify-content: space-between;
+}
+
+div{
+    margin: 10px;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    background-color: #FFF;
+    width: 100%;
+}
+
+.img-card{
+    width: 100%;
+}
+
+p{
+    margin: 10px;
+}
